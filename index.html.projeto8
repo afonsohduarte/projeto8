@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Depoimentos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Logo</div>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+      <ul class="menu">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="testimonials">
+      <h1>Depoimentos</h1>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <img src="https://via.placeholder.com/150" alt="Stella Larson">
+          <h2>Stella Larson</h2>
+          <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+        <div class="testimonial-card">
+          <img src="https://via.placeholder.com/150" alt="Olga Jhonson">
+          <h2>Olga Jhonson</h2>
+          <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+        <div class="testimonial-card">
+          <img src="https://via.placeholder.com/150" alt="Paul Smith">
+          <h2>Paul Smith</h2>
+          <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+        <div class="testimonial-card">
+          <img src="https://via.placeholder.com/150" alt="Nat Reynolds">
+          <h2>Nat Reynolds</h2>
+          <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <script>
+    function toggleMenu() {
+      document.querySelector('.menu').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
